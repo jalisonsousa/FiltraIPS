@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtrar IPs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon.png">
+</head>
+<body class="dark-mode">
+    <div class="container">
+        <h1>Filtrar IPs</h1>
+        <div class="input-container">
+            <textarea id="texto" placeholder="Insira o texto aqui..."></textarea>
+        </div>
+        <button onclick="filtrarIPs()">Filtrar</button>
+        <button onclick="copiarIPs()">Copiar IPs</button>
+        <div id="resultado" class="resultado"></div>
+        <div id="copied-msg" class="copied-msg"></div>
+        <div id="filtered-msg" class="filtered-msg"></div>
+        <div id="invalid-msg" class="invalid-msg"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

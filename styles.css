@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #222; /* cor de fundo dark mode */
+  color: #fff; /* cor do texto */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 95%;
+  padding: 15px; /* Aumenta o espaço interno */
+  border: none;
+  border-radius: 8px; /* Deixa os cantos mais modernos */
+  resize: vertical;
+  background-color: #444; /* cor de fundo do textarea */
+  color: #fff; /* cor do texto */
+  font-size: 15px; /* tamanho da fonte */
+}
+
+
+button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #007bff; /* cor do botão */
+  color: #fff; /* cor do texto do botão */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3; /* cor do botão ao passar o mouse */
+}
+
+.resultado {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #444; /* cor de fundo da área de resultado */
+  color: #fff; /* cor do texto */
+  word-wrap: break-word;
+  font-size: 15px; /* Define o tamanho do texto para 15px */
+}
+/* Resto do CSS permanece o mesmo */
+
+.copied-msg {
+  background-color: #007bff; /* cor de fundo do aviso */
+  color: #fff; /* cor do texto do aviso */
+  padding: 10px;
+  border-radius: 5px;
+  display: none; /* oculta o aviso por padrão */
+}
+.filtered-msg,
+.invalid-msg {
+    background-color: #dc3545; /* cor de fundo do aviso */
+    color: #fff; /* cor do texto do aviso */
+    padding: 10px;
+    border-radius: 5px;
+    display: none; /* oculta o aviso por padrão */
+    margin-top: 10px; /* espaço entre os avisos */
+}
