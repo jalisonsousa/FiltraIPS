@@ -5,7 +5,7 @@ function filtrarIPs() {
         return self.indexOf(value) === index;
     }) : [];
     if (uniqueIps.length > 0) {
-        document.getElementById('resultado').textContent = uniqueIps.join(', ');
+        document.getElementById('resultado').textContent = uniqueIps.join(',');
         mostrarAvisoFiltrado();
     } else {
         document.getElementById('resultado').textContent = "Nenhum IP encontrado.";
